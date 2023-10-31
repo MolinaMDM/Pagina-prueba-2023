@@ -1,0 +1,38 @@
+
+
+.hero- {
+    background-image: url('https://img.freepik.com/vector-gratis/particula-tecnologia-abstracta-realista-fondo_23-2148431735.jpg?w=740&t=st=1698014759~exp=1698015359~hmac=db9daaebc9895642523abe0115e0ff1f472b1a81850f41e7c766a63ce56414d0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #faeded;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: -2;
+  }
+  
+  .hero-::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
+  .hero- h1 {
+    font-size: 46px;
+    margin: -20px 0 20px;
+  }
+  
+  .hero- p {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }

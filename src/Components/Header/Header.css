@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
 }
 
-.nav {
+/* .nav {
   position: fixed;
   background-color: #222;
   top: 0;
@@ -25,6 +25,9 @@ body {
   right: 0;
   transition: all 0.3s ease-in-out;
 }
+
+
+
 
 .nav .container {
   display: flex;
@@ -49,7 +52,7 @@ body {
 }
 
 .nav.active {
-  background-color: #df9696;
+  background-color: #adadad;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -65,9 +68,9 @@ body {
 .nav a:hover {
   color: #802a59;
   font-weight: bold;
-}
+} */
 
-.hero {
+/* .hero {
   background-image: url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +105,7 @@ body {
 .hero p {
   font-size: 20px;
   letter-spacing: 1px;
-}
+} */
 
 .content h2,
 .content h3 {

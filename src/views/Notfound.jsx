@@ -2,9 +2,16 @@ import { Layout } from "../Components/Layout/Layout";
 
 
 const Notfound =() => {
-  return ( <Layout> 
-      <h1>NO FUNCIONA CHE CULIA </h1>
-      
+  return ( 
+  
+  <Layout> 
+        
+           <div class="hero-">
+      <div class="container">
+        <h1>Welcome al Proyect</h1>
+        <p>NO FUNCIONA</p>
+      </div>
+    </div>
 
     </Layout> 
   );

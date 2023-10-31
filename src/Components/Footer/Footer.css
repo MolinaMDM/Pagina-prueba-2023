@@ -1,8 +1,8 @@
 
 .section{
-    background-color: rgb(194, 54, 82);;
+    background-color: rgb(58, 51, 53);;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-evenly;
     justify-items: center;
     gap: 20px;
@@ -41,4 +41,8 @@ text-align: center;
   justify-content: center;
   width: auto;
 }
+
+/* ---------- */
+
+
 

@@ -5,7 +5,13 @@ import { Layout } from "../Components/Layout/Layout";
 
 const Home =() => {
   return ( <Layout> 
-      <h1 class ="Titulo">Hola Soy el Home estoy sigo </h1>
+      <div class="hero">
+      <div class="container">
+        <h1>Welcome a mi Pagina</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
+      </div>
+    </div>
+
       
     </Layout> 
   );

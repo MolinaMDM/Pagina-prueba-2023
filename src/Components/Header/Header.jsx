@@ -1,26 +1,27 @@
 import  './Header.css'
 import { Link } from "react-router-dom";
+import { Navbar } from '../Navbar/Navbar';
 
 
-const nav = document.querySelector('.nav')
-window.addEventListener('scroll', fixNav)
+// const nav = document.querySelector('.nav')
+// window.addEventListener('scroll', fixNav)
 
-function fixNav() {
-    if(window.scrollY > nav.offsetHeight + 150) {
-        nav.classList.add('active')
-    } else {
-        nav.classList.remove('active')
-    }
-}
+// function fixNav() {
+//     if(window.scrollY > nav.offsetHeight + 150) {
+//         nav.classList.add('active')
+//     } else {
+//         nav.classList.remove('active')
+//     }
+// }
 
 
 const Header = () => {
     return (
       <>
-  
+<Navbar/>
  <nav class="nav">
       <div class="container">
-        <h1 class="logo"><a href="/index.html">My Empresa</a></h1>
+        <h1 class="logo">    <a href="">My Empresa</a></h1>
         <ul>
          <ul><Link to="/"></Link></ul>
          <ul><Link to="/Home">Home</Link></ul>
@@ -37,12 +38,7 @@ const Header = () => {
       </div>
  </nav>
 
-    <div class="hero">
-      <div class="container">
-        <h1>Welcome To My Website</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, consequuntur?</p>
-      </div>
-    </div>
+  
 
     
     
