@@ -1,37 +1,38 @@
 
 .section{
-    background-color: rgb(58, 51, 53);;
+    background-color: #222;;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-evenly;
     justify-items: center;
     gap: 20px;
-    text-align: justify;
+    
     margin: 50px 0px 10px 0px;
-    color: rgb(2, 0, 0);
+    color: #fcf5fb;
+    border-radius: 50px;
     
 }
-.grupo  {
+/* .grupo  {
     text-align: center;  
     text-align: justify;
     width: 190px;
     margin: 10px 40px;
     
-}
+} */
 
-.stylelink {
+/* .stylelink {
     color: rgb(0, 0, 0);
     text-align: justify;
     width: 190px;
     margin: 10px 40px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
+} */
+/* 
 .stylelink , h1 {
 text-align: center;
 
-}
+} */
 
 #stylecopy{
   color: beige;
@@ -40,7 +41,29 @@ text-align: center;
   display: flex;
   justify-content: center;
   width: auto;
+ 
 }
+
+.mensaje2{
+ 
+ text-align: center;
+}
+
+.mensaje1{
+    background-image: url("https://img.freepik.com/vector-gratis/diseno-3d-degradado-fondo-degradado-purpura_343694-3661.jpg?w=740&t=st=1700533828~exp=1700534428~hmac=72cb86fa690b82958dce8455a7cfdca3196e8c737ec01f0db93f760a58ea31b2");
+    color: rgb(252, 253, 253);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    
+}
+
+.mensaje3 {
+    color: rgb(218, 196, 196);
+    font-size: 200%;
+    margin-top: 50px;
+}
+
 
 /* ---------- */
 

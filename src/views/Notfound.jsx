@@ -1,5 +1,5 @@
 import { Layout } from "../Components/Layout/Layout";
-
+import  './Notfound.css'
 
 const Notfound =() => {
   return ( 

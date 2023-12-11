@@ -10,7 +10,7 @@ const Testimonios = () => {
     // Cambia al siguiente testimonio cada 2 segundos
     const interval = setInterval(() => {
       setCurrentTestimonialIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 4000);
+    }, 5000);
 
     return () => clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
   }, []);

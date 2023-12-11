@@ -1,22 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   z-index: 5;
+ 
 }
+
+.logo{
+  color: #cf18a1;
+}
+
 
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
   padding-bottom: 50px;
+  
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
+ 
+} */
 
 /* .nav {
   position: fixed;
@@ -107,15 +115,21 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
 } */
-
+/* 
 .content h2,
 .content h3 {
   font-size: 150%;
   margin: 20px 0;
+
 }
 
 .content p {
   color: #555;
   line-height: 30px;
   letter-spacing: 1.2px;
+} */
+
+svg {
+  align-items: center;
+
 }

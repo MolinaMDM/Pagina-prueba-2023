@@ -1,56 +1,56 @@
 
+import imagen1 from '../Images/Comentario1.jpg';
+import imagen2 from '../Images/Comentario2.jpg';
+import imagen3 from '../Images/Comentario3.jpg';
+import imagen4 from '../Images/Comentario4.jpg';
+import imagen5 from '../Images/Comentario5.jpg';
+import imagen6 from '../Images/Comentario6.jpg';
+
+
 const testimonials = [
     {
-      name: 'Miyah Myles',
-      position: 'Marketing',
-      photo:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6',
+      name: 'Flor Moretti',
+      position: 'Comerciante',
+      photo:  imagen2,       
       text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Los trabajos son de calidad y los chicos muy amables y atentos . Los tendre en cuenta para mis proximas fiesta . Lo Recomiendo !! Gracias . ",
     },
     {
-      name: 'June Cha',
-      position: 'Software Engineer',
-      photo: 'https://randomuser.me/api/portraits/women/44.jpg',
+      name: 'Luna y Matias',
+      position: 'Clientes',
+      photo:  imagen4,   
       text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "La buena onda de los chicos y la predisposicion a todo lo que les pedimos , nos dejo muy satisfechos . Sigan asi !! ",
     },
     {
-      name: 'Iida Niskanen',
-      position: 'Data Entry',
-      photo: 'https://randomuser.me/api/portraits/women/68.jpg',
+      name: 'Cecilia Melmoco',
+      position: 'Cliente',
+      photo:  imagen3, 
       text:
-        "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Estoy impresionado por el profesionalismo y la creatividad de estos jóvenes. Han demostrado un gran potencial y han superado nuestras expectativas. ¡Gracias por su trabajo sobresaliente!",
     },
     {
-      name: 'Renee Sims',
-      position: 'Receptionist',
-      photo: 'https://randomuser.me/api/portraits/women/65.jpg',
+      name: 'Mauricio Salamanca',
+      position: 'Contador',
+      photo:  imagen5, 
       text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Felicito a estos jóvenes por su compromiso y esfuerzo en este proyecto. Han demostrado una madurez sorprendente y han entregado resultados de alta calidad. ¡Gracias por su dedicación!"
     },
     {
-      name: 'Jonathan Nunfiez',
-      position: 'Graphic Designer',
-      photo: 'https://randomuser.me/api/portraits/men/43.jpg',
+      name: 'Pablo Bezon',
+      position: 'Diseñador',
+      photo:  imagen6, 
       text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Gracias por todo !! el cumpleaños estubo excelente , los tendre en cuenta para mis proximos festejos .. Son unos Genios!!",
     },
     {
-      name: 'Sasha Ho',
-      position: 'Accountant',
-      photo:
-        'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb',
+      name: 'Matias Messi',
+      position: 'Comerciante',
+      photo:  imagen1,     
       text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
+      "Quiero expresar mi gratitud por su trabajo sobresaliente. La atención al detalle y la calidad de los productos es exepcional . Gracias",
     },
-    {
-      name: 'Veeti Seppanen',
-      position: 'Director',
-      photo: 'https://randomuser.me/api/portraits/men/97.jpg',
-      text:
-      "This guy is a hard worker. Communication was also very good with him and he was very responsive all the time, something not easy to find in many freelancers. We'll definitely repeat with him.",
-    },
+   
   ]
 
   export {testimonials}

@@ -59,11 +59,15 @@
   right: calc(15vw - 65px);
 } */
 
+
+
+
 .slider {
   position: flex;
   align-items: center;
   width: 100%;
   overflow: hidden;
+ 
 }
 
 img {
@@ -80,7 +84,7 @@ button {
   background: rgba(95, 19, 139, 0.5);
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 50px;
   padding: 10px 20px;
   cursor: pointer;
   z-index: 2;
@@ -92,4 +96,38 @@ button {
 
 .next {
   right: 0;
+}
+
+.slide-content {
+
+  display: grid;
+  position: absolute;
+  left: 150px; /* Ajusta la posición horizontal según tus necesidades */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el título */
+  color: white; /* Color del texto */
+  padding: 50px; /* Espaciado interior para el título y descripción */
+  border-radius: 30px;
+  top: 140px;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.slide-content svg {
+  align-items: center;
+}
+
+.slide-content1 {
+  display: grid;
+  position: absolute;
+  top: 100px; /* Ajusta la posición vertical según tus necesidades */
+  left: 100vh; /* Ajusta la posición horizontal según tus necesidades */
+  background-color: rgba(3, 3, 3, 0.5); /* Fondo semitransparente para el título */
+  color: white; /* Color del texto */
+  padding: 50px; /* Espaciado interior para el título y descripción */
+  margin: 100px;
+  border-radius: 30px;
+  top: 80px;
+  font-size: 20px;
+  text-align: center;
 }

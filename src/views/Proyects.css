@@ -1,38 +1,126 @@
+/* 
 
-
-.hero0 {
-    background-image: url('https://img.freepik.com/vector-gratis/particula-tecnologia-abstracta-realista-fondo_23-2148431735.jpg?w=740&t=st=1698014759~exp=1698015359~hmac=db9daaebc9895642523abe0115e0ff1f472b1a81850f41e7c766a63ce56414d0');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    height: 100vh;
-    color: #faeded;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    margin-bottom: 20px;
-    z-index: -2;
+.grilla {
+  padding: 120px;
+  background-color: rgb(231, 183, 166);
+  min-height: 100vh;  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-content: start;
+  justify-items: center;
+  gap: 20px;
   }
   
-  .hero0::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
+
+  
+  .grilla  h1 {
+    background-color: rgb(205, 188, 231);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    
+    
+  }
+   */
+
+   
+
+
+
+  
+
+   .productos {
+   background-color:rgb(255, 0, 140);
+   margin-top: 20px;
+  
+
+   }
+
+   .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px;
+    color: rgb(253, 241, 253);
+    background-color:  #222;
+    box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
+    
+   }
+
+   .title h1 {
+   
+    border-radius: 20px;
+    
+   }
+   
+
+
+
+   .container-img{
+    padding: 0px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+   }
+
+   .container-img .box-img figure {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: -1;
-  }
-  
-  .hero0 h1 {
-    font-size: 46px;
-    margin: -20px 0 20px;
-  }
-  
-  .hero0 p {
-    font-size: 20px;
-    letter-spacing: 1px;
+    overflow: hidden;
+   }
+
+   .container-img .box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 1s;
+    
+   }
+
+   .box-img:hover{
+    transform: scale(1.1);
+
+   }
+
+   .container-img .box-img:nth-child(1){
+    grid-column-start: span 2; 
+
+   } 
+
+   .container-img .box-img:nth-child(4){
+    grid-column-start: span 2; 
+
+   } 
+
+   @media screen and (max-width:800px){
+     .container-img {
+      width: 95%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
+      grid-template-rows: 200px;
+     }
+     .container-img .box-img:nth-child(1){
+      grid-column-start: span 1;
+     }
+   }
+
+   @media screen and (max-width:500px){
+    .container-img {
+     width: 90%;
+     grid-template-columns: repeat(1, 1fr);
+   
+    }
+    .container-img .box-img{
+     height: 200px;
+    }
   }
