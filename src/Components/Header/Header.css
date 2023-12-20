@@ -129,7 +129,115 @@ body {
   letter-spacing: 1.2px;
 } */
 
-svg {
+/* svg {
   align-items: center;
 
+}
+ */
+
+ /* Estilos base */
+
+ /* Estilos base */
+.nav {
+  font-size: 15px;
+  position: fixed;
+  background-color: #222;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 5;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+ 
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #dad4d4;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+
+ 
+  .nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul li {
+    padding: 10px;
+    display: block;
+  }
+
+  .nav .container {
+    display: block;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    
+    width: 100%;
+    height: 10%;
+   
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+   
+
+  }
+
+
+  .svg1{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  height: 100%;
+  max-width: 20%; /* Ajusta según sea necesario */
+  max-height: 20%; /* Ajusta según sea necesario */
+  padding: 0px;
+    margin: 0px;
+
+  
+  }
+  .logo{
+   
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  height: 100%;
+  max-width: 1000px; /* Ajusta según sea necesario */
+  max-height: 1000px; /* Ajusta según sea necesario */
+ 
+  }
+
+ .ul1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+ }
 }

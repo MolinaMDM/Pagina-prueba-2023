@@ -61,28 +61,21 @@ const Proyects1 =() => {
     <section className='sect2'>
  <div className='divpadre'>
  <br />
- <h1 className='div1'>
- <li>Centros de Mesa </li>
- <li>Piñatas Personalizados </li>
- <li>Calendarios Personalizados</li>
- <li>Cotillon </li>
- <li>y Mucho mas ... </li>
- </h1>
-
-
-
  <h1 className='div3'>Todos nuestros  
  <br /> Productos  y 
  Servicios  <br />  son personalizados para 
   <br /> una mejor experiencia...</h1>
 
-  <h1 className='div2'>  Servicio de Pijamadas 
- <li>Carpas Tipi </li>
- <li>Colchonetas y Sabanas Individuales </li>
- <li>Guirnaldas con luces</li>
- <li>Juegos de mesa </li>
- <li>y Mucho mas ... </li>
-  </h1>
+
+ <h1 className='div3'>Servicio a Domicilio
+ <br />  Mendoza / Argentina
+   <br /> Experiencia y Profesinalismo
+  <br /> Contactanos ..</h1>
+
+  <h1 className='div3'>Anima tu fiesta y 
+ <br />Festeja tu Cumple <br />
+ de una manera   <br />  diferente y divertida
+ </h1>
 
  </div>
  </section> 

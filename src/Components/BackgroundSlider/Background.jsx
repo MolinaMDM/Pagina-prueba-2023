@@ -58,9 +58,11 @@
 
 import React, { Component } from 'react';
 import './Background.css';
-import carpas from '../../Images/carpas.jpg';
-import carpas2 from '../../Images/carpas2.jpg';
-import carpas3 from '../../Images/carpas3.jpg';
+import carpasnueva1 from '../../Images/carpanueva1.jpg';
+import carpasnueva2 from '../../Images/carpanueva2.jpg';
+import carpasnueva3 from '../../Images/carpanueva3.jpg';
+import carpasnueva4 from '../../Images/carpanueva4.jpg';
+import carpasnueva5 from '../../Images/carpanueva5.jpg';
 
 
 
@@ -70,13 +72,13 @@ class Slider extends Component {
     this.state = {
       images: [
 
-        carpas,
-        carpas2,
-        carpas3,
-
-
-
-      
+        carpasnueva5, 
+        carpasnueva2,
+        carpasnueva3,
+        carpasnueva1,
+        carpasnueva4, 
+     
+       
         // 'https://img.freepik.com/fotos-premium/pared-fondo-abstracto-color-ladrillo-multicolor_124507-14185.jpg?w=740',
         // 'https://img.freepik.com/vector-gratis/fondo-abstracto-liquido-degradado_23-2148903051.jpg?w=740&t=st=1700014619~exp=1700015219~hmac=3ce8ef76685c70fd7eb51c0204c236051922183b0e14ab91bce678ab9e92e63f',
         // 'https://img.freepik.com/foto-gratis/diseno-colorido-diseno-espiral_188544-9588.jpg?w=740&t=st=1700014843~exp=1700015443~hmac=18ab3cef393a3e6d5dd05ae2a916cfb5667d8356a7c93b3871fc9e5b20469314',

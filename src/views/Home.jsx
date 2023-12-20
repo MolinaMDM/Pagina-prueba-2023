@@ -17,13 +17,13 @@ const Home =() => {
   <section className='sect1'>
  <div className='divpadre'>
  <br />
- <h1 className='div1'>
- <li>Centros de Mesa </li>
- <li>Piñatas Personalizados </li>
- <li>Calendarios Personalizados</li>
- <li>Cotillon </li>
+ <h1 className='div2'>  SERVICIO DE PIJAMADAS
+ <li>Carpas Tipi </li>
+ <li>Colchonetas y Sabanas Individuales </li>
+ <li>Guirnaldas con luces</li>
+ <li>Juegos de mesa </li>
  <li>y Mucho mas ... </li>
- </h1>
+  </h1>
 
 
 
@@ -32,13 +32,15 @@ const Home =() => {
  Servicios  <br />  son personalizados para 
   <br /> una mejor experiencia...</h1>
 
-  <h1 className='div2'>  Servicio de Pijamadas 
- <li>Carpas Tipi </li>
- <li>Colchonetas y Sabanas Individuales </li>
- <li>Guirnaldas con luces</li>
- <li>Juegos de mesa </li>
+
+
+  <h1 className='div1'>
+ <li>Centros de Mesa </li>
+ <li>Piñatas Personalizados </li>
+ <li>Calendarios Personalizados</li>
+ <li>Cotillon </li>
  <li>y Mucho mas ... </li>
-  </h1>
+ </h1>
 
  </div>
  </section> 

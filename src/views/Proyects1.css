@@ -2,7 +2,7 @@
 
 
 .hero1 {
-    background-image: url('https://img.freepik.com/fotos-premium/pared-fondo-abstracto-color-ladrillo-multicolor_124507-14185.jpg?w=740');
+    background-image: url('../Images/fondo2.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -106,6 +106,32 @@
     box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 14px 15px 0px rgba(0,0,0,0.75);
+  }
+
+  /* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    /* Modificar estilos para pantallas de hasta 768px de ancho */
+    .hero1 {
+        top: 100px;
+    }
+
+
+    .hero1 h1 {
+      font-size: 30px;
+    }
+  
+    .hero1 p {
+      font-size: 16px;
+    }
+  
+    .divpadre h1 {
+      margin: 20px;
+      display: block;
+    }
+  
+    .divpadre .div3 {
+      font-size: 20px;
+    }
   }
   
   

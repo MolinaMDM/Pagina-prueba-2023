@@ -43,9 +43,9 @@ const Proyects =() => {
 &ensp;
 
 <div className='title'>
-  <h1>Nuestros Productos</h1>
-  <h1>HOLAAAAAAAAAAAAAAA</h1>
-  <h1>HOLAAAAAAAAAAAAAAA</h1>
+  <h1></h1>
+  <h1>PRODUCTOS NUNCA JAMAS</h1>
+  <h1></h1>
 </div>
 
  <ScrollAnimationComponent/>

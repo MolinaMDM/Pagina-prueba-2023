@@ -10,13 +10,15 @@ const Proyects2 =() => {
 
       <TypingEffect/>
 
-     
-
+ 
+      
+            
 
     
       </div>
+     
     </div>
-
+    <div class="titulosal">  !! GRACIAS POR TU VISITA  !!  </div> 
     </Layout> 
   );
    

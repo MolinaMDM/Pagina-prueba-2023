@@ -1,7 +1,7 @@
 
 
 .hero2 {
-    background-image: url('https://img.freepik.com/vector-gratis/fondo-conexion-red-degradado_23-2148885361.jpg?t=st=1697998437~exp=1697999037~hmac=cd33567f0f6f8ecd53818bea1658d7d881662c3e523664237f48fde2e40724ef');
+    background-image: url('../Images/fondo1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -38,3 +38,26 @@
   }
 
   
+.titulosal{
+  background-color:  #dd31c0;
+  justify-content: center;
+  box-shadow: 20%;
+  margin: 20px;
+  padding: 15px;
+  font-size:40px;
+  text-align: center;
+  color: antiquewhite;
+  border-radius: 20px;}
+
+  @media only screen and (max-width: 768px) {
+    /* Modificar estilos para pantallas de hasta 768px de ancho */
+    .hero2 {
+        top: 200px;
+    }
+
+    .titulosal {
+      margin-top: 230px;  
+      font-size: 20px;
+    }
+
+  }

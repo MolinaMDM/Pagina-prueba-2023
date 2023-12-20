@@ -68,6 +68,7 @@
   width: 100%;
   overflow: hidden;
  
+ 
 }
 
 img {
@@ -75,6 +76,8 @@ img {
   align-items: center;
   width: 100%;
   height: 600px;
+
+  
 }
 
 button {
@@ -99,7 +102,7 @@ button {
 }
 
 .slide-content {
-
+  font-weight: 500;
   display: grid;
   position: absolute;
   left: 150px; /* Ajusta la posición horizontal según tus necesidades */
@@ -118,6 +121,7 @@ button {
 }
 
 .slide-content1 {
+  font-weight: 1000px;
   display: grid;
   position: absolute;
   top: 100px; /* Ajusta la posición vertical según tus necesidades */
@@ -130,4 +134,5 @@ button {
   top: 80px;
   font-size: 20px;
   text-align: center;
+  
 }
