@@ -136,3 +136,54 @@ button {
   text-align: center;
   
 }
+
+@media only screen and (max-width: 768px) {
+
+
+  .slide-content {
+    font-weight: 50px;
+    padding: 10px; /* Espaciado interior para el título y descripción */
+  margin: 50px;
+  font-size: 10px;
+  margin-top: 240px;
+  width: 50%;
+  height: 300px;
+  right: 50%;
+  
+  
+  
+  
+  }
+
+  .slide-content1 {
+  font-weight: 100px;
+  padding: 50px; /* Espaciado interior para el título y descripción */
+  margin: 50px;
+  font-size: 10px;
+  margin-top: 290px;
+  width: 50%;
+  height: 300px;
+  left: -70px;
+
+  
+  }
+
+  .slider {
+   margin-top: auto;
+    max-width: 100%;
+    margin-top: 80px;
+  justify-content: space-around;
+    
+  }
+
+  img {
+    position: flex;
+    align-items: center;
+    max-width: 50%
+  
+    
+  }
+
+
+
+}

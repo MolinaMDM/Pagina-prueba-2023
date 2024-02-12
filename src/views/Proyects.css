@@ -112,6 +112,8 @@
      .container-img .box-img:nth-child(1){
       grid-column-start: span 1;
      }
+
+    
    }
 
    @media screen and (max-width:500px){
@@ -123,4 +125,10 @@
     .container-img .box-img{
      height: 200px;
     }
+
+    .title h1 {
+   
+      margin-top: 100px;
+      
+     }
   }
