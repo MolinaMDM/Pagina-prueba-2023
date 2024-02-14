@@ -1,6 +1,6 @@
 import  './Proyects.css'
 import { Layout } from "../Components/Layout/Layout";
-import imagen1 from '../Images/Producto1.jpg';
+// import imagen1 from '../Images/Producto1.jpg';
 import imagen2 from '../Images/Producto2.jpg';
 import imagen25 from '../Images/Producto25.jpg';
 import imagen3 from '../Images/Producto3.jpg';
@@ -55,7 +55,7 @@ const Proyects =() => {
       <div className='box-img'>
         <a href="#">
           <figure>
-          <img src={imagen1} alt="Imagen 1" />
+          <img src="https://scontent.fmdz5-1.fna.fbcdn.net/v/t39.30808-6/426655622_680520960956963_581308973138044054_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeGK3py43p1t3fRccb_A0_LHmg_tZSqr8EWaD-1lKqvwRfwCIk1LsnCI4AoHvfJBxH8&_nc_ohc=h8GGtGcnW60AX8pg1Tn&_nc_ht=scontent.fmdz5-1.fna&oh=00_AfD3iX2ib34DAiadP8_D7Tv87udsojYVaSxMpC12fKdrqA&oe=65D1D080" alt="Imagen 1" />
           </figure>
         </a>
       </div>
