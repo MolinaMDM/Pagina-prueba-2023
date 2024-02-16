@@ -58,11 +58,11 @@
 
 import React, { Component } from 'react';
 import './Background.css';
-import carpasnueva1 from '../../Images/carpanueva1.jpg';
-import carpasnueva2 from '../../Images/carpanueva2.jpg';
-import carpasnueva3 from '../../Images/carpanueva3.jpg';
-import carpasnueva4 from '../../Images/carpanueva4.jpg';
-import carpasnueva5 from '../../Images/carpanueva5.jpg';
+// import carpasnueva1 from '../../Images/carpanueva1.jpg';
+// import carpasnueva2 from '../../Images/carpanueva2.jpg';
+// import carpasnueva3 from '../../Images/carpanueva3.jpg';
+// import carpasnueva4 from '../../Images/carpanueva4.jpg';
+// import carpasnueva5 from '../../Images/carpanueva5.jpg';
 
 
 
@@ -72,20 +72,27 @@ class Slider extends Component {
     this.state = {
       images: [
 
-        carpasnueva5, 
-        carpasnueva2,
-        carpasnueva3,
-        carpasnueva1,
-        carpasnueva4, 
+        // carpasnueva5, 
+        // carpasnueva2,
+        // carpasnueva3,
+        // carpasnueva1,
+        // carpasnueva4, 
      
        
         // 'https://img.freepik.com/fotos-premium/pared-fondo-abstracto-color-ladrillo-multicolor_124507-14185.jpg?w=740',
         // 'https://img.freepik.com/vector-gratis/fondo-abstracto-liquido-degradado_23-2148903051.jpg?w=740&t=st=1700014619~exp=1700015219~hmac=3ce8ef76685c70fd7eb51c0204c236051922183b0e14ab91bce678ab9e92e63f',
         // 'https://img.freepik.com/foto-gratis/diseno-colorido-diseno-espiral_188544-9588.jpg?w=740&t=st=1700014843~exp=1700015443~hmac=18ab3cef393a3e6d5dd05ae2a916cfb5667d8356a7c93b3871fc9e5b20469314',
         // 'https://img.freepik.com/vector-premium/patron-abstracto-multicolor-costuras-ilustracion-vectorial_257845-3426.jpg?w=740',
-       
-       
+
+        'https://i.pinimg.com/originals/4d/f0/ec/4df0ec53a4561033577528620e05a777.jpg',
+        'https://tipisvigo.es/wp-content/uploads/2020/11/como-organizar-la-mejor-tipi-fiesta-en-casa-2020-11-12-como-organizar-la-mejor-tipi-fiesta-en-casa-14.jpeg',
+        'https://cdn1.eldia.com/072019/1563097986185.jpg?&cw=630',
+        'https://lh3.googleusercontent.com/p/AF1QipNteffaTIMZW_LBO4G7Waj3lJc-1f03Xd-3Ku3G=w1080-h608-p-no-v0',
+        'https://cdn.shopify.com/s/files/1/2374/0619/collections/PIJAMADA.jpg?v=1505823882',
+        'https://media.istockphoto.com/id/1055111242/es/foto/amigas-disfrutando-de-aperitivos-mientras-ve-la-laptop-en-tienda.jpg?s=612x612&w=0&k=20&c=RzpGftyJawmshwA9OQR_0IjLPiMhlF__-r9wabiTfgs=',
         // Agrega más imágenes aquí
+
+
        
       ],
       currentIndex: 0,
