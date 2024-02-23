@@ -294,6 +294,14 @@ const Proyects =() => {
         </a>
       </div>
 
+      <div className='box-img'>
+        <a href="#">        
+          <figure>
+          <img src="https://scontent.fmdz5-1.fna.fbcdn.net/v/t39.30808-6/428002336_684181630590896_1305823917431643296_n.jpg?stp=dst-jpg_p526x296&_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHfMeuesI1TCWaSHWuGKF5W4aQJkytxuRDhpAmTK3G5EKy7eMRVvVJ-rDeHsq8D7nI&_nc_ohc=Is3Lvsf7QZ4AX-Wkv1R&_nc_ht=scontent.fmdz5-1.fna&oh=00_AfBNNIjP_eMUcs2CXSoH8VJlIBPq5GuMNybjdxmQxKfmFA&oe=65D06C27" alt="Imagen 2" />
+          </figure>       
+        </a>
+      </div>
+
 
   </div>
  

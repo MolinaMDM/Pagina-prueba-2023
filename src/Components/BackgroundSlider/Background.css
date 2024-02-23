@@ -141,19 +141,16 @@ button {
 
 
   .slide-content {
-    font-weight: 50px;
-    padding: 10px; /* Espaciado interior para el título y descripción */
+  font-weight: 50px;
+  padding: 10px; /* Espaciado interior para el título y descripción */
   margin: 50px;
   font-size: 10px;
-  margin-top: 240px;
+  margin-top: 100px;
   width: 50%;
   height: 300px;
   right: 50%;
-  
-  
-  
-  
   }
+
 
   .slide-content1 {
   font-weight: 100px;
@@ -163,10 +160,11 @@ button {
   margin-top: 290px;
   width: 50%;
   height: 300px;
-  left: -70px;
+  left: -30px;
 
-  
   }
+
+
 
   .slider {
    margin-top: auto;
@@ -181,7 +179,7 @@ button {
     align-items: center;
     max-width: 50%
   
-    
+
   }
 
 

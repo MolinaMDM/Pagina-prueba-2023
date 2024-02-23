@@ -6,7 +6,7 @@ import { TypingEffect } from '../Components/Autotext/Autotext';
 const Proyects2 =() => {
   return ( <Layout> 
          <div class="hero2">
-      <div class="container">
+      <div class="container22">
 
       <TypingEffect/>
 
