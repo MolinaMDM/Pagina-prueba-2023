@@ -24,7 +24,7 @@ const Header = () => {
 
       <div class="container">
         
-        <p class="logo">    <a  href="/home">*NUNCA JAMAS*  <br />Cotillon y Eventos </a>
+        <p class="logo44">    <a >*NUNCA JAMAS*  <br />Cotillon y Eventos </a>
         </p>
         
         <ul class =" ul1">

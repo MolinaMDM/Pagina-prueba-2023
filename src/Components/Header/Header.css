@@ -138,6 +138,11 @@ body {
  /* Estilos base */
 
  /* Estilos base */
+
+ .logo44 {
+  color: antiquewhite;
+ }
+ 
 .nav {
   font-size: 15px;
   position: fixed;
